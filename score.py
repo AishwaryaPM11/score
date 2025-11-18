@@ -13,3 +13,12 @@ average = total / len(scores)
 print("Sum of scores =", total)
 print("Average of scores =", average)
 
+
+maximum = max(scores, key=eval)
+minimum = min(scores, key=eval)
+
+print("Sum of scores =", total)
+print("Average of scores =", average)
+print("Maximum score =", eval(maximum))
+print("Minimum score =", eval(minimum))
+
